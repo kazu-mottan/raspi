@@ -1,5 +1,4 @@
 from sense_hat import SenseHat
-
 sense = SenseHat()
 
 def red():
@@ -13,7 +12,7 @@ def green():
 
 def yellow():
     sense.clear(255,255,0)
-
+# 上下右左で色が変わったりする。真ん中で色が消える。
 sense.stick.direction_up = red
 sense.stick.direction_down = blue
 sense.stick.direction_left = green
